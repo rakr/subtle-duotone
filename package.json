@@ -1,0 +1,26 @@
+{
+    "name": "subtle-theme",
+    "displayName": "Subtle Themes",
+    "description": "Subtle themes for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Subtle Duotone Light",
+                "uiTheme": "vs",
+                "path": "./themes/subtle-duotone-light-color-theme.json"
+            },
+            {
+                "label": "Subtle Duotone Darktone",
+                "uiTheme": "vs-dark",
+                "path": "./themes/subtle-duotone-dark-tone-color-theme.json"
+            }
+        ]
+    }
+}
